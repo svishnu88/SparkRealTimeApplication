@@ -14,10 +14,10 @@ object KafkaTwitterProducer extends App {
   //properties.load(new FileInputStream(args(0)))
 
 
-  val apiKey = "fd7dVmkLgUs1ds3OIre9XtvyA"
-  val apiSecret = "Qk4oJMrg0SyNLmRmEL294FBEXGaTlegHa6iiOUu26m6QyRIxcN"
-  val accessToken = "18899177-igVAFhs7hnvlUGRD3o3RMzgN0VGuCdfKzkWkeraxi"
-  val accessTokenSecret = "kQKSZ2TFeIICwnLODRsjSQ2p9hmwf5LLHYOp4skx10"
+  val apiKey = "*******"
+  val apiSecret = "*******"
+  val accessToken = "*******"
+  val accessTokenSecret = "*******"
 
   val twitterConfig = new twitter4j.conf.ConfigurationBuilder()
     .setOAuthConsumerKey(apiKey)
