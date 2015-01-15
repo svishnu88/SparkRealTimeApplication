@@ -8,7 +8,7 @@ version := "1.0"
 
 scalaVersion := "2.10.4"
 
-jarName in assembly := "spark-examples.jar"
+jarName in assembly := "spark-app.jar"
 
 assemblyOption in assembly ~= { _.copy(includeScala = false) }
 
